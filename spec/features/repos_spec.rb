@@ -16,6 +16,6 @@ describe 'visiting root' do
     visit '/'
     expect(page).to have_content 'Repo 1'
     expect(page).to have_content 'Repo 2'
-    expect(page).to have_content 'Repo 3' 
+    expect(page).to have_content 'Repo 3'
   end
 end
